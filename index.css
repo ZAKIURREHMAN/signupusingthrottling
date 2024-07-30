@@ -1,0 +1,71 @@
+.container{
+    height: 800px;
+}
+.chang-theam{
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.icon{
+    position: absolute;
+    right: 70px;
+    cursor: pointer;
+    top: 22px;
+    font-size: 25px;
+}
+.signup-from{
+    height: 745px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: -100px 0px;
+    
+}
+.signup-from h2{
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFAAAA;
+    font-size: 60px;
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.form-box{
+    height: 440px;
+    width: 350px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -60px;
+    background-color: rgb(214, 213, 213);
+}
+.form-box label{
+    margin: 110px 30px;
+    font-family: "Anton", sans-serif;
+}
+.form-box input{
+    width: 80%;
+    height: 35px;
+    margin: 9px 10%;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+.btn{
+    height: 35px;
+    margin: 20px 0px;
+}
+.btn button{
+    height: 100%;
+    width: 80%;
+    margin: 0px 10%;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(89, 89, 191);
+    font-family: "Anton", sans-serif;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: rgb(117, 117, 197);
+}
